@@ -1,0 +1,10 @@
+.box {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.15);
+}
+
+.form_search {
+  background: #eeeeee;
+  border-radius: 16px;
+  height: 48px;
+  width: 444px;
+}

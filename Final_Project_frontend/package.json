@@ -1,0 +1,31 @@
+{
+  "name": "finpro-binar-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "cookie": "^0.5.0",
+    "formik": "^2.2.9",
+    "jose": "^4.8.1",
+    "next": "12.1.6",
+    "next-translate": "^1.4.0",
+    "nodemon": "^2.0.16",
+    "react": "18.1.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "18.1.0",
+    "sharp": "^0.30.6",
+    "swiper": "^8.2.4",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
+}

@@ -1,0 +1,56 @@
+.input,
+.input-file {
+  width: 100%;
+  border: 1px solid #dedede;
+  border-radius: 14px;
+  padding: 0.65rem 1.2rem;
+  outline: none;
+  font-size: 14px;
+}
+
+.input:focus::-webkit-input-placeholder {
+  padding-left: 0.4rem;
+  transition: padding 200ms;
+  color: #dedede;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 0.1rem rgb(113 38 181 / 20%);
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.label {
+  font-size: 85%;
+}
+
+.input-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 95%;
+  color: #aaaaaa;
+  cursor: pointer;
+}
+
+.input-photo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23232323FF' stroke-width='2' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error-validation {
+  color: #f87474;
+  font-size: 12px;
+  margin-left: 10px;
+}

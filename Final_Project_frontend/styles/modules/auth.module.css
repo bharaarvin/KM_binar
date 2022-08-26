@@ -1,0 +1,58 @@
+.auth-wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.bg-auth {
+  background-image: url("/auth.png");
+  background-size: cover;
+}
+
+.auth-image {
+  object-fit: cover;
+}
+
+.gradient {
+  height: 100%;
+  background: linear-gradient(360deg, #a06ece 50%, rgba(160, 110, 206, 0) 100%);
+  opacity: 0.5;
+}
+
+.footer {
+  margin-top: 2.5rem;
+  font-size: 14px;
+}
+
+.footer-link {
+  margin-left: 7px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #7126b5;
+}
+
+.footer-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.form-auth {
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .form-auth {
+    width: 60%;
+  }
+}
+.h6 {
+  width: 296px;
+  height: 40px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+}

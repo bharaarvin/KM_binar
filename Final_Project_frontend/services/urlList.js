@@ -1,0 +1,15 @@
+export const BASE_URL = "https://backend-overflow.herokuapp.com";
+export const PATH_LOGIN = "/login";
+export const PATH_REGISTER = "/register";
+export const PATH_VALIDATE_AUTH = "/validate-auth";
+export const PATH_GET_ALL_PRODUCT = "/product";
+export const PATH_GET_ALL_PROMO = "/promo";
+export const PATH_POST_ADD_PRODUCT = "/product";
+export const PATH_PUT_EDIT_PRODUCT = "/product/";
+export const PATH_GET_PRODUCT_BY_ID_USER = "/product/getbyiduser";
+export const PATH_GET_PRODUCT_BY_ID = "/product/";
+export const PATH_GET_PRODUCT_BY_CATEGORY = "/product/category/";
+export const PATH_GET_CATEGORY = "/category";
+export const PATH_POST_NEGOTIATION = "/negotiation";
+export const PATH_POST_CHECK_HAS_NEGOTIATION = "/negotiation/checkhasnego";
+export const PATH_GET_SELLER_OFFERS = "/negotiationseller";

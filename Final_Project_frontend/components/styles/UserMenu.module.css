@@ -1,0 +1,52 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown-body {
+  border-radius: 5px;
+  padding: .3rem;
+  border: none;
+  background-color: #F8F9FA;
+}
+
+.dropdown-body:is(:hover, :focus, .active) {
+  background-color: #ebebeb;
+}
+
+.menu-body {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1rem;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  background-color: white;
+  z-index: 100;
+  bottom: 0;
+  transform: translate(-65%, 110%);
+}
+
+.menu-body  a {
+  font-size: 14px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-list {
+  background-color: white;
+  padding: 0.4rem 0.6rem;
+  text-align: start;
+  border-radius: 5px;
+  border: none;
+}
+
+.menu-list:is(:hover, :focus) {
+  background-color: #f3f3f3;
+}
+
+.account {
+  padding: 0.4rem 0.6rem;
+  white-space: nowrap;
+}

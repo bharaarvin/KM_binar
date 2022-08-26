@@ -1,0 +1,18 @@
+.wrapper {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  max-width: 90vw;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  gap: 1.5rem;
+  z-index: 9999;
+}
+
+@media (min-width: 768px ) {
+  .wrapper {
+    top: 2rem;
+    right: 2rem;
+  }
+}
