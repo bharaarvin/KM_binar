@@ -1,0 +1,98 @@
+nav,
+.main {
+    background-color: rgba(241, 243, 255, 1);
+}
+
+.navigation a {
+    margin-left: 8px;
+}
+
+.btn-success {
+    background-color: #5cb85f;
+}
+
+.off-navbar {
+    width: 50%;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 25%;
+}
+
+.content {
+    font-size: 14px;
+    padding-right: 80px;
+}
+
+.picture img {
+    width: 120%;
+    margin-left: 10px;
+    padding-top: 75px;
+}
+
+.container #cari-mobil {
+    border: 5px solid black;
+    width: 80%;
+}
+
+.container #cm-search {
+    /* border: 1px solid black; */
+    width: 95%;
+    box-shadow: 2px 3px 5px 0px #777777;
+    z-index: 999999999;
+    margin-top: -35px;
+}
+
+.form-search {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-select,
+.form-control {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+input[type="date"]::before {
+    content: attr(placeholder);
+    position: absolute;
+    color: black;
+}
+
+input[type="date"] {
+    color: #ffffff;
+}
+
+input[type="date"]:focus,
+input[type="date"]:valid {
+    color: #666666;
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+    content: "";
+}
+
+.tombol-search {
+    margin-top: 18px;
+}
+
+.tombol-search button {
+    background-color: #5cb85f;
+}
+
+.box {
+    width: 100px;
+    height: 34px;
+    background-color: rgba(13, 40, 166, 1);
+}

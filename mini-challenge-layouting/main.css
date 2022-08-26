@@ -1,0 +1,28 @@
+.bar-blue {
+    background-color: #f1f3ff;
+}
+
+.black{
+    color: black;
+}
+
+.h2{
+    text-align: center;
+    font-style: bold;
+}
+
+.card{
+    height: auto;
+    width: 20rem;
+}
+
+.color{
+    background-color: #E4FFFA;
+}
+
+.icon-bg {
+    color: black;
+    border-radius: 50%;
+    padding: .25rem;
+    margin-right: .5rem;
+}

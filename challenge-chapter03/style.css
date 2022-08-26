@@ -1,0 +1,175 @@
+/* navbar */
+.bar-blue {
+    background-color: #f1f3ff;
+}
+
+.bg-btn {
+  background-color: #5cb85f;
+  color: white;
+}
+
+.navbar-loc {
+  margin: 0% 6%;
+}
+
+.brand {
+  background-color: #0d28a6;
+  width: 100px;
+  height: 34px;
+  margin-left: 6%;
+}
+
+.off-navbar {
+  width: 50%;
+}
+
+.tittle {
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 25%;
+}
+
+.content {
+  font-size: 14px;
+  padding-right: 80px;
+}
+/* navbar */
+
+/* Our Service */
+.icon-bg {
+    background-color: #f1f3ff;
+    color: blue;
+    border-radius: 50%;
+    padding: .25rem;
+    margin-right: .5rem;
+}
+/* Our Service */
+
+/* why us */
+.icon-round {
+    padding: .25rem;
+    border-radius: 50%;
+    color: white;
+    width: 1.75rem;
+    height: auto;
+}
+/* why us */
+
+
+/* testimonial */
+.card-testi {
+  width: 619px;
+  height: 270px;
+}
+
+.item {
+  width: 100%;
+  background-color: rgba(241, 243, 255, 1);
+}
+
+.card-left {
+  width: 30%;
+  height: 30%;
+  margin: 50px 10px;
+}
+
+.card-right {
+  text-align: justify;
+  font-size: 12px;
+  padding: 50px 30px 0 20px;
+}
+
+.card-right i {
+  color: gold;
+  padding-bottom: 10px;
+}
+
+.Testimonial-tittle {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.owl-carousel .card-body {
+  display: flex;
+}
+
+/* testimonial */
+
+/* banner */
+
+.width-card{
+  width: 50%;
+}
+
+/* banner */
+
+/* FAQ */
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\22C1';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\22C0";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.display-accor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* FAQ */
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .size-carosel {
+    height: max-content;
+  }
+
+  .width-card{
+    width: 100%;
+  }
+
+  .owl-carousel .card-body {
+    display: block;
+  }
+
+  .card-right {
+    padding: 0;
+  }
+
+  .card-left {
+    width: 25%;
+    height: 25%;
+    margin: 0;
+    margin-left: 37%;
+  }
+}
